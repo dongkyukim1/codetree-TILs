@@ -9,6 +9,6 @@ public class Main {
         int d = a+b+c;
         double e = (double)(a+b+c)/3;
         System.out.println(d);
-        System.out.printf("%.0f",e);
+        System.out.printf("%d",(int)e);
     }
 }
