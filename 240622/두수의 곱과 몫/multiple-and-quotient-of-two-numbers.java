@@ -4,7 +4,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        System.out.println(a*b);
-        System.out.println(a/b);
+        System.out.println("300 * 5 = "+a*b);
+        System.out.println("300 / 5 = "+a/b);
     }
 }
