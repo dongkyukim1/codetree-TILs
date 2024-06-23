@@ -5,7 +5,7 @@ public class Main {
         int a = sc.nextInt();
         if(a == 12 || a == 1 || a ==2){
             System.out.println("Winter");
-        }else if(a<6){
+        }else if(a<=6){
             System.out.println("Spring");
         }else if(a<12){
             System.out.println("Fall");
