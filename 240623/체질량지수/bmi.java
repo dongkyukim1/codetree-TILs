@@ -10,5 +10,8 @@ public class Main {
         System.out.println(b);
         System.out.println("Obesity");
         }
+        else{
+            System.out.println(b);
+        }
     }
 }
