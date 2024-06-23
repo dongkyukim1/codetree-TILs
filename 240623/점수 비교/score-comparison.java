@@ -9,7 +9,7 @@ public class Main {
        int eng_b = sc.nextInt();
 
 
-       if(math_a>math_b && eng_a>eng_b){
+       if(math_a>=math_b && eng_a>=eng_b){
         System.out.println(1);
        }else{
         System.out.println(0);
