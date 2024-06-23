@@ -8,12 +8,15 @@ public class Main {
         // 짝수일 경우 2로 나눈 값을 출력
         if (a % 2 == 0) {
             a = a / 2;
+            
         }
 
         // 홀수일 경우 1을 더한 후 2로 나눈 값을 출력
         if (a % 2 != 0) {
             a = (a + 1) / 2;
-            System.out.println(a);
+           
         }
+        System.out.println(a);
     }
+
 }
