@@ -5,9 +5,10 @@ public class Main {
         int a  = sc.nextInt();
             
             if(a % 4 == 0){
-                System.out.println("true");
-            }else if(a % 100 ==0){
+             }if(a % 100 ==0){
                 System.out.println("false");
+            }else{
+                System.out.println("true");
             }
         }
     }
