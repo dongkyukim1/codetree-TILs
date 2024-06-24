@@ -8,7 +8,7 @@ public class Main {
                 System.out.println("true");
             }else if(a % 100 ==0 && a % 400 !=0){
                 System.out.println("false");
-            }else if(a % 200 ==0){
+            }else if(a == 200){
                 System.out.println("false");
             }
         }
