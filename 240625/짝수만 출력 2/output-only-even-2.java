@@ -1,20 +1,16 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        int a = 20;
-        int b = 10;
-
-        if (a % 2 != 0) {
-            a -= 1;
-        }
-
-         if (b % 2 != 0) {
-            b--;
-        }
+        Scanner scanner = new Scanner(System.in);
+        int b = scanner.nextInt();
+        int a = scanner.nextInt();
+        scanner.close();
         
-        while(a>=b){
-            
-            System.out.print(a+" ");
-            a-=2;
+        
+        while (b >= a) {
+            System.out.print(b + " ");
+            b -= 2;
         }
     }
 }
