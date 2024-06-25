@@ -4,6 +4,7 @@ public class Main {
         int b = 10;
 
         while(a>=b){
+            
             System.out.print(a+" ");
             a-=2;
         }
