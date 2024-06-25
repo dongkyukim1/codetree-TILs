@@ -7,6 +7,10 @@ public class Main {
             a -= 1;
         }
 
+         if (b % 2 != 0) {
+            b--;
+        }
+        
         while(a>=b){
             
             System.out.print(a+" ");
