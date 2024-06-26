@@ -9,7 +9,7 @@ public class Main {
         int toliet_clean = 0;
         int n = sc.nextInt();
 
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i <= n; i++) {
             if (i % 12 == 0) {
                 toliet_clean++;
             } else if (i % 3 == 0) {
